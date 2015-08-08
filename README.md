@@ -26,7 +26,7 @@ Install the toolchain if missing:
 
 then copy the repo, build and install the package:
 
-    git clone https://github.com/jekader/hostapd-rtl.git
+    git clone https://github.com/Bananian/hostapd-rtl.git
     cd hostapd-rtl
     bash build.sh
     dpkg -i ../hostapd-rtl_2.4-4_armhf.deb
