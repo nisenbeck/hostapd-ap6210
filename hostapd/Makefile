@@ -10,7 +10,7 @@ CFLAGS += $(EXTRA_CFLAGS)
 CFLAGS += -I$(abspath ../src)
 CFLAGS += -I$(abspath ../src/utils)
 
-export BINDIR ?= /usr/sbin/
+export BINDIR ?= /usr/local/bin/
 
 # Uncomment following line and set the path to your kernel tree include
 # directory if your C library does not include all header files.
