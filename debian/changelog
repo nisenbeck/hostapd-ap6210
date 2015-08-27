@@ -1,8 +1,15 @@
+hostapd-ap6210 (2.4-5) UNRELEASED; urgency=medium
+
+  * Initial release for ap6210 (Banana Pro).
+
+ -- Nico Isenbeck <contact@bananian.org>  Thu, 27 Aug 2015 14:22:39 +0000
+
 hostapd-ap6210 (2.4-4) UNRELEASED; urgency=medium
 
   * Updated noscan patch, fixing github issue #6
 
  -- Jeka Der <jekader@gmail.com>  Fri, 1 May 2015 21:00:03 +0100
+
 hostapd-ap6210 (2.4-3) UNRELEASED; urgency=medium
 
   * Added noscan patch to make 40 MHz channels work
