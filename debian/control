@@ -1,11 +1,11 @@
-Source: hostapd-rtl
+Source: hostapd-ap6210
 Maintainer: Jeka Der <jekader@gmail.com>
 Section: network
 Priority: optional
 Standards-Version: 3.9.6
 Build-Depends: debhelper (>= 9), libnl-3-dev, libssl-dev
 
-Package: hostapd-rtl
+Package: hostapd-ap6210
 Architecture: any
 Depends: lsb-base, initscripts (>=2.88), ${shlibs:Depends}, ${misc:Depends}
 Conflicts: hostapd
