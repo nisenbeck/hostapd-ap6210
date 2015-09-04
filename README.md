@@ -31,8 +31,11 @@ then copy the repo, build and install the package:
 USE:
 ----
 
+Add the following line to /etc/modules to load the ap6210 module in AP mode, then reboot:
+    ap6210 op_mode=2
+
 The sample config file is provided in /etc/hostapd/hostapd.conf - edit it for your needs (change BSSID and WPA key).
 Then uncomment the DAEMON_CONF line in /etc/default/hostapd to unlock the init script.
 Finally, start the init script:
-/etc/init.d/hostapd start
+    /etc/init.d/hostapd start
 
